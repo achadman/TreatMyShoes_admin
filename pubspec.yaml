@@ -37,6 +37,8 @@ dependencies:
   google_fonts: ^7.0.0
   supabase_flutter: ^2.12.0
   intl: ^0.20.2
+  csv: ^6.0.0
+  share_plus: ^12.0.1
 
 dev_dependencies:
   flutter_test:
@@ -52,13 +54,14 @@ dev_dependencies:
 
 flutter_native_splash:
   # Warna latar belakang Splash Screen
-  color: "#25BFE9"
-  image: assets/Images/Logo.png
+  color: "#006ACD"
+  image: assets/Images/Logo2.png
   android_12:
-    image: assets/Images/Logo.png # Logo yang sama
-    color: "#25BFE9"
+    image: assets/Images/Logo2.png # Logo yang sama
+    color: "#006ACD"
   android_gravity: center
   ios_content_mode: center
+  fullscreen: true
     
   # Atau gunakan gambar penuh yang menutupi layar:
   # background_image: "assets/images/background.png"
@@ -70,9 +73,9 @@ flutter_native_splash:
 flutter_launcher_icons:
   android: "launcher_icon"
   ios: true
-  image_path: "assets/Images/logo.png" # Samakan dengan logo splash screen kamu
-  adaptive_icon_background: "#634FED"  # Warna background icon (Android 8+)
-  adaptive_icon_foreground: "assets/Images/logo.png"
+  image_path: "assets/Images/Logo.png" # Samakan dengan logo splash screen kamu
+  adaptive_icon_background: "#24465F"  # Warna background icon (Android 8+)
+  adaptive_icon_foreground: "assets/Images/Logo.png"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

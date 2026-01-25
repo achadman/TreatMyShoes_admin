@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import 'package:treatmyshoes_admin/Auth/login_page.dart';
-import 'package:treatmyshoes_admin/pages/home_page.dart';
+import 'package:treatmyshoes_admin/pages/main_scree.dart';
 
 class AuthGate extends StatelessWidget {
   const AuthGate({super.key});
@@ -25,7 +25,7 @@ class AuthGate extends StatelessWidget {
 
         // Jika ada session (sudah login), arahkan ke Beranda Admin
         if (session != null) {
-          return const AdminHomePage();
+          return const AdminMainScreen();
         }
 
         // Jika tidak ada session, arahkan ke Login
